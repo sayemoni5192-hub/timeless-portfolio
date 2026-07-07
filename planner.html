@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio -v2</title>
+    <link rel="stylesheet" href="style -v2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="planner.html" class="minus">Planner</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+<main>
+    <section class="planner-intro">
+        <h1>Academic Planner</h1>
+        <p>Organize your assignments, projects, and deadlines efficiently.
+        This planner helps students stay productive and manage their academic tasks.
+        </p>
+    </section>
+    <section class="planner-form">
+        <div class="planner-card">
+        <form>
+            <div class="planner-tasks">
+            <label for="course">Course:</label>
+            <input type="text" id="course" placeholder="Enter Course">
+            </div>
+            <div class="planner-tasks">
+            <label for="tasks">Tasks:</label>
+            <input type="text" id="tasks" placeholder="Enter Tasks">
+            </div>
+            <div class="planner-tasks">
+            <label for="date">Due Date:</label>
+            <input type="date" id="date" placeholder="Input Date">
+            </div>
+            <div class="planner-tasks">
+            <label for="priority">Priority:</label>
+            <select id="priority">
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+            </div>
+            <button type="submit">Add Tasks</button>
+        </form>
+        <section class="task-list">
+            <h2>My Tasks</h2>
+            <p>No tasks yet.</p>
+        </section>
+        </div>
+    </section>
+</main>
+            <footer>
+                <h2>Samuel O. Ayemoni</h2>
+                <p>Computer Science Student | Energetic Software Developer</p>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="planner.html">Planner</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <p class="copyright">
+                     © 2026 Samuel O. Ayemoni. All Rights Reserved.
+            </p>
+        </footer>
+        <script src="planner.js"></script>
+</body>
+</html>
