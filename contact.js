@@ -1,9 +1,9 @@
-let form = document.querySelector("form");
+const form = document.getElementById("contact-form");
 
 form.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    alert("Message sent successfully!");
+    alert("✅ Message sent successfully!");
 
     form.reset();
 });
