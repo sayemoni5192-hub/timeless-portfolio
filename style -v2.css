@@ -128,51 +128,45 @@ font-weight:900;
     border-radius:50px;
 }
 footer{
-    background:white;
-    border-top:5px solid #7C3AED;
-    border-radius:25px;
-    padding:25px;
-    margin:40px 8% 25px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    background: white;
+    border-radius: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+    margin: 60px 8% 30px;
 }
-
 footer h2{
-    font-size:32px;
-    margin-bottom:8px;
+    font-size: 32px;
+    color: #1F2937;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
-
 footer p{
-    font-size:16px;
-    color:#6B7280;
+    color: #6B7280;
 }
-
 .footer-links{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:15px;
-    margin:20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+    flex-wrap: wrap;
 }
-
 .footer-links a{
-    color:#555;
-    font-weight:500;
-    transition:.3s;
+    color: #555;
+    font-weight: 500;
+    transition: .3s;
 }
-
 .footer-links a:hover{
-    color:#7C3AED;
-    transform:translateY(-2px);
+    color: #7C3AED;
 }
-
 .copyright{
-    margin-top:10px;
-    font-size:14px;
-    color:#999;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #999;
+}
+footer{
+    border-top: 5px solid #7C3AED;
 }
 .about{
     text-align: center;
@@ -492,27 +486,26 @@ button:hover{
 
 }
 .projects-container{
-    display: flex;
-    justify-content: center;
-    gap: 45px;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:30px;
+    max-width:900px;
+    margin:50px auto;
 }
 .projects-card{
-    display: flex;
-    flex: 1 1 300px;
-    max-width: 350px;
-    flex-direction: column;
-    justify-content: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:320px;
     background:#6D28D9;
-    padding: 15px 40px;
-    border-radius: 18px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
-    font-weight: 600;
-    transition: .3s;
-    color: white;
-    margin-bottom: 20px;
+    color:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+    gap: 20px;
 }
 .projects-card h2{
     font-size: 30px;
@@ -564,6 +557,7 @@ button:hover{
     border-radius:25px;
     box-shadow:0 15px 35px rgba(0,0,0,.08);
     padding:30px;
+
 }
 
 .contact-card{
