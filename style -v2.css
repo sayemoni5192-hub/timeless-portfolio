@@ -513,16 +513,22 @@ button:hover{
 .projects-card p{
     margin-bottom: 10px;
 }
-.projects-card a{
-    background: white;
-    color: rgb(0, 0, 0);
-    padding: 7px;
-    border-radius: 50px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    transition: .3s;
-    width: 150px;
-    text-align: center;
+.projects-card{
+    display: flex;
+    flex: 1 1 300px;
+    max-width: 550px;
+    flex-direction: column;
+    justify-content: center;
+    background:#671be2;
+    padding:15px 40px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    font-weight:600;
+    transition:.3s;
+    color:white;
+    margin-bottom:20px;
+
+    min-height:340px;
 }
 .projects-card a:hover{
     background: #000000;
