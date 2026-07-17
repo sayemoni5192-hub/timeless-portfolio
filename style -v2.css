@@ -530,10 +530,20 @@ button:hover{
 
     min-height:340px;
 }
+.projects-card a{
+    display:inline-block;
+    background:white;
+    color:#6D28D9;
+    padding:10px 20px;
+    border-radius:25px;
+    font-weight:600;
+    width:fit-content;
+    transition:.3s;
+}
+
 .projects-card a:hover{
-    background: #000000;
-    color: white;
-    width: 150px;
+    background:#1F2937;
+    color:white;
 }
 .contact-container{
     text-align:center;
